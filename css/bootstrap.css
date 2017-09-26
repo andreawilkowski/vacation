@@ -84,7 +84,10 @@ sub {
   bottom: -.25em;
 }
 img {
-  border: 0;
+  width: 450px;
+  height: auto;
+  object-fit: cover;
+
 }
 svg:not(:root) {
   overflow: hidden;
